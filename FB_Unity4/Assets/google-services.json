@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "55216509151",
+    "firebase_url": "https://crashlyticstest-32f87.firebaseio.com",
+    "project_id": "crashlyticstest-32f87",
+    "storage_bucket": "crashlyticstest-32f87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55216509151:android:7f8f47f21b5fb532",
+        "android_client_info": {
+          "package_name": "com.glu.crashlyticstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55216509151-7bbs8qri3fdh8g9j5tm7irgjevin6tmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMDbvfbdQzZhCgdxCITNfLcAlM_EB0CF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

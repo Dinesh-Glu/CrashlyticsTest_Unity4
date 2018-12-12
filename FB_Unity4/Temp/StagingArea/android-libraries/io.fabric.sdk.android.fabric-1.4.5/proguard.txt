@@ -1,0 +1,13 @@
+# Fabric Proguard Config
+-keep class com.google.android.gms.common.GooglePlayServicesUtil {*;}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {*;}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {*;}
+-keep class com.google.android.gms.measurement.AppMeasurement$OnEventListener {*;}
+-keep class com.google.android.gms.measurement.AppMeasurement {
+    static com.google.android.gms.measurement.AppMeasurement getInstance(android.content.Context, java.lang.String, java.lang.String);
+    void registerOnMeasurementEventListener(com.google.android.gms.measurement.AppMeasurement$OnEventListener);
+}
+-keep class com.google.firebase.FirebaseApp {
+    static com.google.firebase.FirebaseApp getInstance();
+    boolean isDataCollectionDefaultEnabled();
+}

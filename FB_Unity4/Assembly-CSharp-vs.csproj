@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{5EDB73DC-43BE-C453-1D36-967244E68DAE}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_7_2;UNITY_4_7;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity4.7.2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity4.7.2/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Test.cs" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ky\values-ky.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-in\values-in.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-zh-rCN\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-fa\values.xml" />
+     <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-vi\values-vi.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-iw\values-iw.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-tasks-16.0.1\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-vi\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-pt\values-pt.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-v4-26.1.0\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-nb\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-core-ui-26.1.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-hy\values-hy.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\drawable\notification_bg_low.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-zh-rHK\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\drawable-v21\notification_action_background.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\R.txt" />
+     <None Include="Assets\Plugins\Android\com.crashlytics.sdk.android.answers-1.4.4\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ca\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-in\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-el\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\public.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-tl\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-is\values-is.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-common-16.0.4\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-hr\values-hr.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\values-v24\values-v24.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-or\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-measurement-connector-impl-17.0.2\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-tr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.crashlytics.sdk.android.crashlytics-core-2.6.5\aapt\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-measurement-api-16.0.2\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ta\values-ta.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-hy\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-en-rGB\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_text_disabled.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-el\values-el.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-zh-rCN\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_text_dark_focused.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-cs\values-cs.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-gu\values-gu.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout\notification_template_part_chronometer.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-my\values-my.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-fi\values-fi.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout\notification_action.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-zh-rTW\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ur\values-ur.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\layout\notification_template_big_media_custom.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-es\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout\notification_template_icon_group.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-th\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-ads-identifier-16.0.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ms\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-az\values-az.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-hu\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-sw\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-pt-rBR\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-lv\values-lv.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-kk\values-kk.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-as\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-fragment-26.1.0\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-sv\values-sv.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-uk\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-impl-16.2.2\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.crashlytics.sdk.android.beta-1.2.10\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ro\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-or\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ar\values-ar.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-nb\values-nb.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-iid-17.0.3\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-am\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-en-rIN\values-en-rIN.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-zu\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-v4-26.1.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-zh-rCN\values-zh-rCN.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-sk\values-sk.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-fi\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout\notification_action_tombstone.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-b+sr+Latn\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-gu\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-mk\values-mk.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ml\values-ml.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-fr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_text_light_focused.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ja\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\layout\notification_template_media_custom.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-kn\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ne\values.xml" />
+     <None Include="Assets\Plugins\Android\android.arch.lifecycle.runtime-1.0.0\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout-v16\notification_template_custom_big.xml" />
+     <None Include="Assets\Plugins\Android\android.arch.lifecycle.runtime-1.0.0\R.txt" />
+     <None Include="Assets\Plugins\Android\Firebase\res\values\crashlytics_unity_version.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-sr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-core-utils-26.1.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-it\values-it.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-ads-identifier-16.0.0\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-km\values-km.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-common-16.0.4\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\layout\notification_template_big_media.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_icon_dark_focused.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-bn\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-it\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-core-ui-26.1.0\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-impl-16.2.2\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-core-16.0.4\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-sq\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-sq\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-sw\values-sw.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-bg\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\color\common_google_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-measurement-api-16.0.2\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-iw\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-bn\values-bn.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-kn\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-fragment-26.1.0\AndroidManifest.xml" />
+     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-uz\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ms\values-ms.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-mk\values.xml" />
+     <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ta\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-sl\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ml\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-tasks-16.0.1\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\layout\notification_template_lines_media.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-hu\values-hu.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ko\values-ko.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-km\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\drawable\notification_icon_background.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-az\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-si\values-si.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-sw\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-mn\values-mn.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ro\values-ro.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-fr-rCA\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ko\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-hi\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout-v21\notification_action_tombstone.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-sl\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-tl\values-tl.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-my\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout-v21\notification_template_icon_group.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\proguard.txt" />
+     <None Include="Assets\Firebase\Editor\CrashlyticsDependencies.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_text_light_normal.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-b+sr+Latn\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-be\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-eu\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-measurement-api-16.0.2\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-measurement-base-16.0.3\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-is\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ka\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ml\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-pl\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ky\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-common-16.0.4\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-it\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-be\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-en-rAU\values-en-rAU.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-fr\values-fr.xml" />
+     <None Include="Assets\Plugins\Android\com.crashlytics.sdk.android.beta-1.2.10\aapt\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-common-16.0.4\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-zh-rTW\values-zh-rTW.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-eu\values-eu.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-pt-rPT\values-pt-rPT.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-es-rUS\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ka\values-ka.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-de\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-lt\values-lt.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-measurement-connector-impl-17.0.2\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-fr-rCA\values-fr-rCA.xml" />
+     <None Include="Assets\Plugins\Android\com.crashlytics.sdk.android.answers-1.4.4\aapt\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-be\values-be.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-bs\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-th\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-uz\values-uz.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-b+sr+Latn\values-b+sr+Latn.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-mr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-is\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-hu\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-hr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-iid-interop-16.0.1\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-pl\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_icon_dark_normal.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-am\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-zh-rHK\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-hr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout\notification_template_custom_big.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\public.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ru\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-tr\values-tr.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\values-v21\values-v21.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-te\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-gl\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-sk\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-port\values-port.xml" />
+     <None Include="Assets\Plugins\Android\com.crashlytics.sdk.android.answers-1.4.4\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-zh-rHK\values-zh-rHK.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-eu\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-es-rUS\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-stats-16.0.1\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-sq\values-sq.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-sv\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-fa\values-fa.xml" />
+     <None Include="Assets\Firebase\Plugins\Crashlytics\link.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-si\values.xml" />
+     <None Include="Assets\Firebase\Editor\FirebaseCrashlytics_version-5.4.1_manifest.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_icon_light_focused.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ja\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-fi\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout-v21\notification_template_custom_big.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-pt-rPT\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-stats-16.0.1\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-kn\values-kn.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-app-unity-5.4.1\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-te\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-bs\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-as\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-vi\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-hi\values-hi.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-my\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-zh-rTW\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-bg\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\layout\notification_template_big_media_narrow.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-da\values-da.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-bn\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-uz\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-pt-rBR\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ka\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-nb\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-mn\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-lt\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-fr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-nl\values-nl.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-nl\values.xml" />
+     <None Include="Assets\Plugins\Android\io.fabric.sdk.android.fabric-1.4.5\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_icon_light.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-pl\values-pl.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-th\values-th.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-16.0.4\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-da\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-measurement-connector-17.0.1\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-16.0.4\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_icon_disabled.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-et\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-gl\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-tl\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-lv\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-measurement-connector-impl-17.0.2\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-in\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-pt-rPT\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-stats-16.0.1\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ja\values-ja.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-measurement-connector-17.0.1\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-af\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-16.0.4\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\color\common_google_signin_btn_tint.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-sk\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-zu\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout\notification_template_part_time.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-pa\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\color\common_google_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-fa\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\layout\notification_template_media.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-et\values-et.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\layout\notification_media_cancel_action.xml" />
+     <None Include="Assets\Firebase\Plugins\link.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-lo\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-cs\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-app-unity-5.4.1\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-pa\values-pa.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-sr\values-sr.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-mn\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-tasks-16.0.1\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-hy\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-es-rUS\values-es-rUS.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-et\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-iid-interop-16.0.1\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ar\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-impl-16.2.2\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ur\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\drawable\notification_tile_bg.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-impl-16.2.2\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-lo\values-lo.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-kk\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-iw\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-mr\values-mr.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-el\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-km\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-af\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-de\values-de.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ky\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-fr-rCA\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\layout-v21\notification_action.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-measurement-connector-17.0.1\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.crashlytics.sdk.android.crashlytics-core-2.6.5\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ru\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-si\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-uk\values-uk.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ne\values.xml" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.95.0.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\layout\notification_template_big_media_narrow_custom.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-core-16.0.4\R.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-bg\values-bg.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-gl\values-gl.xml" />
+     <None Include="Assets\Plugins\Android\com.crashlytics.sdk.android.crashlytics-2.9.6\aapt\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-analytics-16.0.4\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ta\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-measurement-api-16.0.2\third_party_licenses.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ro\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-lt\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-nl\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-core-utils-26.1.0\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-mr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-iid-17.0.3\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-hi\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-da\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_icon_light_normal.xml" />
+     <None Include="Assets\Plugins\Android\io.fabric.sdk.android.fabric-1.4.5\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-app-unity-5.4.1\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-pa\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-cs\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-am\values-am.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-sr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-pt-rBR\values-pt-rBR.xml" />
+     <None Include="Assets\Plugins\Android\com.crashlytics.sdk.android.crashlytics-2.9.6\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ca\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ko\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-lv\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ar\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-az\values.xml" />
+     <None Include="Assets\Plugins\Android\Firebase\res\values\crashlytics_build_id.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-iid-17.0.3\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-v16\values-v16.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-es\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.firebase.firebase-iid-interop-16.0.1\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-en-rGB\values-en-rGB.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-bs\values-bs.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\drawable\common_google_signin_btn_text_dark_normal.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-ur\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-kk\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-v21\values-v21.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-media-compat-26.1.0\res\layout\notification_media_action.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-de\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-es\values-es.xml" />
+     <None Include="Assets\Plugins\Android\io.fabric.sdk.android.fabric-1.4.5\aapt\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-gu\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-uk\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-mk\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-af\values-af.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-core-ui-26.1.0\proguard.txt" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-te\values-te.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-basement-16.0.1\res\values-tr\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-ads-identifier-16.0.0\R.txt" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-measurement-base-16.0.3\R.txt" />
+     <None Include="Assets\Plugins\Android\Firebase\res\values\google-services.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-ms\values.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-en-rGB\values.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ru\values-ru.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\drawable\notification_bg.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ca\values-ca.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-ne\values-ne.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-sv\values.xml" />
+     <None Include="Assets\Plugins\Android\android.arch.lifecycle.runtime-1.0.0\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-sl\values-sl.xml" />
+     <None Include="Assets\Plugins\Android\com.android.support.support-compat-26.1.0\res\values-zu\values-zu.xml" />
+     <None Include="Assets\Plugins\Android\com.google.android.gms.play-services-base-16.0.1\res\values-lo\values.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity4.7.2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.7.2/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>/Users/dkannan/TestProjects/FB_Unity4/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Crashlytics">
+ <HintPath>/Users/dkannan/TestProjects/FB_Unity4/Assets/Firebase/Plugins/iOS/Firebase.Crashlytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>/Users/dkannan/TestProjects/FB_Unity4/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>/Users/dkannan/TestProjects/FB_Unity4/Assets/Firebase/Plugins/iOS/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Platform">
+ <HintPath>/Users/dkannan/TestProjects/FB_Unity4/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>/Users/dkannan/TestProjects/FB_Unity4/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
